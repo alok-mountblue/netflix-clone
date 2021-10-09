@@ -3,13 +3,11 @@ import Banner from './Banner';
 import "./HomeScreen.css";
 import Nav from "./Nav"
 
-const HomeScreen = () => {
-    return (
+const HomeScreen = () => (
         <div className="homeScreen">
             <Nav/>
             <Banner/>
         </div>
     )
-}
 
 export default HomeScreen
