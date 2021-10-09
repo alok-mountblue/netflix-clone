@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const firebaseConfig = {
   apiKey: "AIzaSyAqu6UNEruUye0XTkd92xc27LJYr83ubmc",
   authDomain: "netflix-clone-a8f58.firebaseapp.com",
