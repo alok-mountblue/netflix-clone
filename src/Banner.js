@@ -1,6 +1,4 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/destructuring-assignment */
+
 import React from 'react';
 import "./Banner.css";
 import axios from './axios';
