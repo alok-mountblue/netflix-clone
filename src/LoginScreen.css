@@ -4,6 +4,7 @@
   background: url(https://assets.nflxext.com/ffe/siteui/vlv3/9b3267c9-5086-4550-92f1-eddc22a1f78e/8b897a27-47f0-42d0-bb50-10fdb72d34a2/IN-en-20211004-popsignuptwoweeks-perspective_alpha_website_large.jpg)
     center no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .loginScreen_button {
