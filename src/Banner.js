@@ -11,7 +11,6 @@ class Banner extends React.Component{
             movie:[]
         }
     }
-
     async componentDidMount() {
     const request = await axios.get(requests.fetchNetflixOriginals);
         this.setState({movie:
@@ -20,8 +19,6 @@ class Banner extends React.Component{
                             ]
                         }
                         );
-                        console.log(request.data.results);
-                        return request;
                     }
    
     truncate(string, n){
