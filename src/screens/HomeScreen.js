@@ -4,6 +4,8 @@ import "./HomeScreen.css";
 import Nav from "../Nav";
 import requests from '../Requests';
 import Row from '../Row';
+import Footer from '../footer';
+
 
 const HomeScreen = () => (
         <div className="homeScreen">
@@ -44,7 +46,9 @@ const HomeScreen = () => (
                 title="Documenteries"
                 fetchUrl={requests.fetchDocumentaries}
             />
+            <Footer/>
         </div>
+        
     )
 
 export default HomeScreen
