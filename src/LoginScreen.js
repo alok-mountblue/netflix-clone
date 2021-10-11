@@ -22,7 +22,6 @@ class LoginScreen extends React.Component {
           >
             Sign In
           </button>
-          <div className="loginScreen_gradient" />
         </div>
         <div className="loginScreen_body">
           {this.state.signIn ? (
@@ -37,7 +36,7 @@ class LoginScreen extends React.Component {
               </h3>
               <div className="loginScreen_input">
                 <form>
-                  <input type="email" placeholder="Email Address" />
+                  {/* <input type="email" placeholder="Email Address" /> */}
                   <button
                     onClick={() => this.setState({ signIn: true })}
                     className="loginScreen_getStarted"
