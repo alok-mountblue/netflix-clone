@@ -1,6 +1,6 @@
 import React from 'react';
 import './LoginScreen.css';
-import SignUpScreen from './SignUpScreen';
+import SignInScreen from './SignInScreen';
 
 class LoginScreen extends React.Component {
   constructor() {
@@ -26,7 +26,7 @@ class LoginScreen extends React.Component {
         </div>
         <div className="loginScreen_body">
           {this.state.signIn ? (
-            <SignUpScreen />
+            <SignInScreen />
           ) : (
             <>
               <h1>Unlimited films, TV programs and more.</h1>
@@ -37,7 +37,6 @@ class LoginScreen extends React.Component {
               </h3>
               <div className="loginScreen_input">
                 <form>
-                  <input type="email" placeholder="Email Address" />
                   <button
                     onClick={() => this.setState({ signIn: true })}
                     className="loginScreen_getStarted"
