@@ -4,7 +4,6 @@ import "./HomeScreen.css";
 import Nav from "../Nav";
 import requests from '../Requests';
 import Row from '../Row';
-import Footer from '../footer';
 
 
 const HomeScreen = () => (
@@ -46,7 +45,6 @@ const HomeScreen = () => (
                 title="Documenteries"
                 fetchUrl={requests.fetchDocumentaries}
             />
-            <Footer/>
         </div>
         
     )
