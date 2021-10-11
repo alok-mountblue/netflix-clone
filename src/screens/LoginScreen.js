@@ -1,5 +1,6 @@
 import React from 'react';
 import './LoginScreen.css';
+import Footer from '../footer';
 import SignInScreen from './SignInScreen';
 
 class LoginScreen extends React.Component {
@@ -48,6 +49,7 @@ class LoginScreen extends React.Component {
             </>
           )}
         </div>
+        <Footer/>
       </div>
     );
   }
