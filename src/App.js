@@ -32,7 +32,7 @@ function App() {
     <div className="app">  
       <Router>
         {
-          user ? (
+          !user ? (
             <LoginScreen />
           ): (
             <Switch>
