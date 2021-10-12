@@ -1,23 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { auth } from '../firebase';
+import SignUpScreen from './SignUpScreen';
 import './SignInScreen.css';
 
-function SignUpScreen() {
-    const emailRef = useRef(null);
-    const passwordRef = useRef(null);
-
-  const register = (e) => {
-    e.preventDefault();
-
-    auth.createUserWithEmailAndPassword(
-      emailRef.current.value,
-      passwordRef.current.value
-    ).then((authUser)=> {
-        console.log(authUser);
-    }).catch((error)=> {
-        alert(error.message);
-    });
-  };
+function SignInScreen() {
+  const [signUp, setSignUp] = useState(false);
+  const emailRef = useRef(null);
+  const passwordRef = useRef(null);
 
   const signIn = (e) => {
     e.preventDefault();
@@ -32,23 +21,34 @@ function SignUpScreen() {
     });
   };
   return (
-    <div className="singupScreen">
-      <form>
-        <h1>Sign In</h1>
-        <input ref={emailRef} type="email" placeholder="Email" />
-        <input ref={passwordRef} type="password" placeholder="Password" />
-        <button type="submit" onClick={signIn}>
-          Sign In
-        </button>
-        <h4>
-          <span className="singupScreen_gray">New to netflix? </span>
-          <span className="signupScreen_link" onClick={register}>
-            Sign up now.
-          </span>
-        </h4>
-      </form>
-    </div>
+    <>
+      {
+        signUp ? (
+          <SignUpScreen />
+        ) : (
+          <div className="singupScreen">
+            <form>
+              <h1>Sign In</h1>
+              <input ref={emailRef} type="email" placeholder="Email" />
+              <input ref={passwordRef} type="password" placeholder="Password" />
+              <button type="submit" onClick={signIn}>
+                Sign In
+              </button>
+              <h4>
+                <span className="singupScreen_gray">New to netflix? </span>
+                <span className="signupScreen_link" onClick={()=> {
+                  setSignUp(true);
+                }}>
+                  Sign up now.
+                </span>
+              </h4>
+            </form>
+          </div>
+        )
+      }
+    </>
+    
   );
 }
 
-export default SignUpScreen;
+export default SignInScreen;
