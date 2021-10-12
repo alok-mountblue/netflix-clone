@@ -34,3 +34,17 @@
   transform: scale(1.09);
   opacity: 1;
 }
+
+.heart {
+  background: none;
+  border: none;
+  margin-top: 10px;
+}
+
+.gray-heart {
+  color: gray;
+}
+
+.red-heart {
+  color: red;
+}
