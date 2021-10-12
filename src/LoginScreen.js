@@ -1,4 +1,5 @@
 import React from 'react';
+import Faq from './FAQ';
 import './LoginScreen.css';
 import SignUpScreen from './SignUpScreen';
 
@@ -49,6 +50,7 @@ class LoginScreen extends React.Component {
             </>
           )}
         </div>
+        <Faq />
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './FAQ.css';
 
-class faq extends React.Component {
+class Faq extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -214,4 +214,4 @@ class faq extends React.Component {
   }
 }
 
-export default faq;
+export default Faq;
