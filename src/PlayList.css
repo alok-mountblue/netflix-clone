@@ -34,8 +34,8 @@ body {
 .movieList > div > button {
   width: 90%;
   height: 2rem;
-  background: transparent;
-  color: gray;
+  background: rgb(29, 27, 27);
+  color: white;
   font-weight: bold;
   border-radius: 1rem;
   cursor: pointer;
