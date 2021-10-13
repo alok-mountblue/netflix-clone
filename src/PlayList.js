@@ -17,7 +17,7 @@ class PlayList extends React.Component {
               <div className="playlist-empty">Watch list is empty...</div>
             ) : (
               this.props.movieList.map((movie) => (
-                <div>
+                <div className="img-container">
                   <img
                     className="row_poster"
                     key={movie.id}
@@ -37,7 +37,15 @@ class PlayList extends React.Component {
                     </h3>
                   </div>
                   <button onClick={() => this.props.removeFromPlayList(movie)}>
-                    Remove
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="gray"
+                    >
+                      <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-12v-2h12v2z" />
+                    </svg>
                   </button>
                 </div>
               ))

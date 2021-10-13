@@ -31,19 +31,22 @@ body {
   width: 90%;
   height: 3rem;
 }
+
+.img-container {
+  position: relative;
+}
 .movieList > div > button {
-  width: 90%;
-  height: 2rem;
-  background: rgb(29, 27, 27);
-  color: white;
-  font-weight: bold;
-  border-radius: 1rem;
+  position: absolute;
+  top: -2%;
+  right: 2rem;
+  background: transparent;
+  border: 0;
+  opacity: 0.8;
   cursor: pointer;
-  border: none;
 }
 
-.movieList > div > button:hover {
-  color: red;
+.movieList > div > button > svg:hover {
+  fill: #e50914;
 }
 
 .playList > h1 {
