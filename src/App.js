@@ -32,10 +32,11 @@ function App() {
   }, [dispatch]);
 
   const playList = (newMovie) => {
-    const check =
-      movieList.filter((movie) => movie.id === newMovie.id).length === 0;
-    if (check) {
+    const check = movieList.filter((movie) => movie.id === newMovie.id).length;
+    if (check === 0) {
       setMovieList([...movieList, newMovie]);
+    } else {
+      removeFromPlayList(newMovie);
     }
   };
 

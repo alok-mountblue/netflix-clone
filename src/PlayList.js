@@ -3,6 +3,9 @@ import './PlayList.css';
 import Nav from './Nav';
 
 class PlayList extends React.Component {
+  truncate(string, n) {
+    return string?.length > n ? `${string.substr(0, n - 1)}...` : string;
+  }
   render() {
     return (
       <section className="playlist-container">
@@ -25,7 +28,14 @@ class PlayList extends React.Component {
                     }`}
                     alt={movie.name}
                   />
-                  <h3>{movie.name || movie.original_title}</h3>
+                  <div className="title">
+                    <h3>
+                      {this.truncate(
+                        `${movie.original_title || movie.name} `,
+                        20
+                      )}
+                    </h3>
+                  </div>
                   <button onClick={() => this.props.removeFromPlayList(movie)}>
                     Remove
                   </button>

@@ -21,20 +21,37 @@ body {
   width: 200px;
 }
 
-.movieList > div > h3,
+.movieList > div > div > h3,
 .movieList > div > button {
-  margin: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
-.movieList > div > button {
-  position: absolute;
+.title {
+  width: 90%;
+  height: 3rem;
 }
+.movieList > div > button {
+  width: 90%;
+  height: 2rem;
+  background: transparent;
+  color: gray;
+  font-weight: bold;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.movieList > div > button:hover {
+  color: red;
+}
+
 .playList > h1 {
   margin: 1rem 0;
   font-size: 1.5rem;
 }
 
 .playlist-empty {
-  margin: 20% 40%;
+  margin: 15% 40%;
   font-size: 1rem;
 }
