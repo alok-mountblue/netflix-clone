@@ -1,0 +1,40 @@
+body {
+  background: rgb(26, 21, 21);
+}
+.playlist-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.playList {
+  margin-top: 5%;
+  background: rgb(26, 21, 21);
+  color: white;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movieList > div {
+  margin-bottom: 2rem;
+  width: 200px;
+}
+
+.movieList > div > h3,
+.movieList > div > button {
+  margin: 0.5rem;
+}
+
+.movieList > div > button {
+  position: absolute;
+}
+.playList > h1 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.playlist-empty {
+  margin: 20% 40%;
+  font-size: 1rem;
+}
