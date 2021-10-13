@@ -22,9 +22,9 @@ class Row extends React.Component {
   };
   render() {
     return (
-      <div className="row">
+      <div className='row'>
         <h2>{this.props.title}</h2>
-        <div className="row_posters">
+        <div className='row_posters'>
           {this.state.movies.map(
             (movie) =>
               ((this.props.isLargeRow && movie.poster_path) ||
@@ -43,14 +43,14 @@ class Row extends React.Component {
                     alt={movie.name}
                   />
                   <button
-                    type="button"
-                    className="heart"
+                    type='button'
+                    className='heart'
                     onClick={() => this.props.playList(movie)}
                   >
                     {this.checkPlayList(movie) ? (
-                      <i className="material-icons-round red-heart">favorite</i>
+                      <i className='material-icons-round red-heart'>favorite</i>
                     ) : (
-                      <i className="material-icons-round gray-heart">
+                      <i className='material-icons-round gray-heart'>
                         favorite
                       </i>
                     )}
