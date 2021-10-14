@@ -77,6 +77,8 @@ class Row extends React.Component {
           <MovieModal
             {...this.state.movieSelected}
             setModalVisibility={this.setModalVisibility}
+            playList={this.props.playList}
+            movieList={this.props.movieList}
           />
         )}
       </div>
