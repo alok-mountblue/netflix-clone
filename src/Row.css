@@ -22,7 +22,7 @@ h2 {
   max-height: 144px;
   margin-right: 10px;
   transition: transform 450ms;
-  /* border-radius: 4px; */
+  border-radius: 4px;
 }
 .row__poster:hover {
   transform: scale(1.08);
