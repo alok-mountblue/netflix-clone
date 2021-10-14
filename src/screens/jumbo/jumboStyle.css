@@ -1,0 +1,28 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  height: 500px;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: normal;
+  width: 800px;
+}
+
+.section-image .image {
+  border-radius: 9px;
+  width: 400px;
+  height: 350px;
+}
