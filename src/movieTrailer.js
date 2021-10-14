@@ -45,6 +45,14 @@ class MovieTrailer extends React.Component {
         .catch((error) => console.log(error));
     }
   }
+  checkPlayList = (newMovie) => {
+    // const checkList =
+    //   this.props.movieList.filter((movie) => movie.id === newMovie.id).length >
+    //   0;
+    // return checkList;
+    // console.log(this.props.movieList);
+    // // console.log(this.props);
+  };
   render() {
     const opts = {
       height: '390',
@@ -82,7 +90,19 @@ class MovieTrailer extends React.Component {
                   : this.state.first_air_date}
               </p>
               <h2 className='modal__title'>
-                {this.state.title ? this.state.title : this.state.name}
+                {this.state.title ? this.state.title : this.state.name}{' '}
+                <span>Add to Watchlist</span>
+                <button
+                  type='button'
+                  className='heart'
+                  onClick={() => this.props.playList(this.props.movie)}
+                >
+                  {this.checkPlayList(this.props.currentMovie) ? (
+                    <i className='material-icons-round red-heart'>favorite</i>
+                  ) : (
+                    <i className='material-icons-round gray-hearts'>favorite</i>
+                  )}
+                </button>
               </h2>
               <p className='modal__overview'>{this.state.overview}</p>
               <p className='modal__overview'>

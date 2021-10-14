@@ -8,6 +8,7 @@ class Row extends React.Component {
     super(props);
     this.state = {
       movies: [],
+      currentMovie: {},
       modalVisibility: false,
       movieSelected: {},
     };
@@ -26,6 +27,7 @@ class Row extends React.Component {
   handleClick = (movie) => {
     this.setModalVisibility(true);
     this.setState({ movieSelected: movie });
+    this.setState({ currentMovie: movie });
   };
 
   checkPlayList = (newMovie) => {
@@ -79,6 +81,7 @@ class Row extends React.Component {
             setModalVisibility={this.setModalVisibility}
             playList={this.props.playList}
             movieList={this.props.movieList}
+            movie={this.state.currentMovie}
           />
         )}
       </div>
