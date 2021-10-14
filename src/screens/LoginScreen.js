@@ -3,6 +3,11 @@ import './LoginScreen.css';
 import Footer from '../footer';
 import SignInScreen from './SignInScreen';
 import Faq from '../FAQ';
+import Seprator from './seperator/seperator';
+import FirstJumbo from './jumbo/first-jumbo';
+import SecondJumbo from './jumbo/second-jumbo';
+import ThirdJumbo from './jumbo/third-jumbo';
+
 
 class LoginScreen extends React.Component {
   constructor() {
@@ -52,6 +57,12 @@ class LoginScreen extends React.Component {
             )}
           </div>
         </div>
+        <Seprator/>
+        <FirstJumbo/>
+        <Seprator/>
+        <SecondJumbo/>
+        <Seprator/>
+        <ThirdJumbo/>
         <Faq />
         <Footer/>
       </>
