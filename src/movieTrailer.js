@@ -50,6 +50,7 @@ class MovieTrailer extends React.Component{
                     <div className="modal__content">
                         <p className="modal__details"><span className="modal__user-perc">{this.randomPorcentaje()}% for you</span> {this.state.release_date ? this.state.release_date : this.state.first_air_date}</p>
                         <h2 className="modal__title">{this.state.title ? this.state.title : this.state.name}</h2>
+                        
                         <p className="modal__overview">{this.state.overview}</p>
                         <p className="modal__overview">Vote Average: {this.state.vote_average}</p>
                     </div>
