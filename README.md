@@ -1,8 +1,8 @@
-# NETFLIX CLONE :tv
+# NETFLIX CLONE :tv:
 
 <img src="https://raw.githubusercontent.com/superneutrino8/netlfix-clone/master/src/NetflixClone.jpg">
 
-## Features :fire
+## Features :fire:
 
 :tv: Navbar which change its color when scroll.<br>
 :tv: Random movies in the banner when refresh.<br>
