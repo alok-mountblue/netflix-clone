@@ -1,3 +1,4 @@
+
 import React from "react";
 import { withRouter } from 'react-router';
 import './Nav.css';
@@ -35,13 +36,13 @@ class Nav extends React.Component {
       <img 
         className ="nav_logo"
         onClick={this.moveToHome}
-        src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-        alt=""
+        src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+        alt = "Netflix-logo"
       />
       <img 
         className="nav_avatar"
         onClick={this.moveToProfile}
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQadx7_3qurjAk-NnLECtybSA2ZwmeUbZOQ5w&usqp=CAU"
+        src="https://play-lh.googleusercontent.com/4e6wjPWV0QabU6n8yfQ48XuL1O3-k6lqurQNKEBNPrUMqABQvhqupOI5xzCEVOaegdw"
         alt=""
       />
          

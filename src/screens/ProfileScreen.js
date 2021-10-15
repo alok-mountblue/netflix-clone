@@ -10,12 +10,12 @@ export const ProfileScreen = () => {
   const user = useSelector(selectUser);
   return (
     <div className='profileScreen'>
-      <Nav src={"https://lh3.googleusercontent.com/3tXjJ7tprQrvd51YX6WC8ZZ73x0XBwQRoIHxzhDGaCG-nJXWTzTSs_ELXibjUxl22IyOR2ywVGqt4H-YEhJlROGvPuIVAVFDhkjXnw=w600"}/>
+      <Nav />
       <div className='profileScreen_body'>
         <h1>Edit Profile</h1>
         <div className='profileScreen_info'>
           <img
-            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5y-_SlNYalCNY-SKWNtKdfB0hb9wHcJJrNw&usqp=CAU'
+            src='https://lh3.googleusercontent.com/Ut-WdOVJI3EIwH5hhEA4OB9X2I5eEZo-_E-dKvLTKWxq6fbuPmbUzd-ggjkGK7TIBFEMjUo=s85'
             alt=''
           />
           <div className='profileScreen_details'>
