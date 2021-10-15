@@ -19,6 +19,7 @@
   position: fixed;
   top: 0px;
   left: 0;
+  color: red;
   width: 120px;
   object-fit: contain;
   padding-left: 20px;
