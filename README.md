@@ -1,8 +1,8 @@
-# NETFLIX CLONE :tv:
+# NETFLIX CLONE :tv
 
 <img src="https://raw.githubusercontent.com/superneutrino8/netlfix-clone/master/src/NetflixClone.jpg">
 
-## Features :fire:
+## Features :fire
 
 :tv: Navbar which change its color when scroll.<br>
 :tv: Random movies in the banner when refresh.<br>
@@ -11,3 +11,8 @@
 :tv: If the video is sent from the API it'll be render!.<br>
 
 <img src="https://i.ibb.co/Ch89ZtF/Screenshot-from-2021-01-04-20-41-49.png">
+
+## Tech Stack
+
+:clapper: **Fron-end** React <br>
+:clapper: **Back-end** Firebase<br>
