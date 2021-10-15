@@ -81,17 +81,18 @@ h2 {
   max-height: 144px;
   margin-right: 10px;
   transition: transform 450ms;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .row__poster:hover {
   transform: scale(1.08);
 }
 .row__posterLarge {
-  max-height: 320px;
+  max-height: 330px;
+  border-radius: 10px;
 }
 .row__posterLarge:hover {
-  transform: scale(1.2);
+  transform: scale(1.09);
   opacity: 1;
 }
 
