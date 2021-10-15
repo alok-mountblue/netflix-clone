@@ -10,7 +10,7 @@ export const ProfileScreen = () => {
   const user = useSelector(selectUser);
   return (
     <div className='profileScreen'>
-      <Nav />
+      <Nav src={"https://lh3.googleusercontent.com/3tXjJ7tprQrvd51YX6WC8ZZ73x0XBwQRoIHxzhDGaCG-nJXWTzTSs_ELXibjUxl22IyOR2ywVGqt4H-YEhJlROGvPuIVAVFDhkjXnw=w600"}/>
       <div className='profileScreen_body'>
         <h1>Edit Profile</h1>
         <div className='profileScreen_info'>
