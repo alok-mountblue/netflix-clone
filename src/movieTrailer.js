@@ -101,11 +101,17 @@ class MovieTrailer extends React.Component {
                   }}
                 >
                   {this.checkPlayList(this.props.movie) ? (
-                    <i className="material-icons-round red-heart-btn">
+                    <i
+                      className="material-icons-round red-heart-btn"
+                      title="Remove from watchlist"
+                    >
                       favorite
                     </i>
                   ) : (
-                    <i className="material-icons-round gray-heart-btn">
+                    <i
+                      className="material-icons-round gray-heart-btn"
+                      title="Add to watchlist"
+                    >
                       favorite
                     </i>
                   )}

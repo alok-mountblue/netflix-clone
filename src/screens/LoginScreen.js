@@ -8,7 +8,6 @@ import FirstJumbo from './jumbo/first-jumbo';
 import SecondJumbo from './jumbo/second-jumbo';
 import ThirdJumbo from './jumbo/third-jumbo';
 
-
 class LoginScreen extends React.Component {
   constructor() {
     super();
@@ -37,7 +36,10 @@ class LoginScreen extends React.Component {
               <SignInScreen />
             ) : (
               <>
-                <h1>Unlimited films, TV programs and more.</h1>
+                <h1>
+                  Unlimited films, TV <br />
+                  <h2>shows and more.</h2>{' '}
+                </h1>
                 <h2>Watch anywhere. Cancel at any time.</h2>
                 <h3>
                   Ready to watch? Enter your email to create or restart your
@@ -57,14 +59,14 @@ class LoginScreen extends React.Component {
             )}
           </div>
         </div>
-        <Seprator/>
-        <FirstJumbo/>
-        <Seprator/>
-        <SecondJumbo/>
-        <Seprator/>
-        <ThirdJumbo/>
+        <Seprator />
+        <FirstJumbo />
+        <Seprator />
+        <SecondJumbo />
+        <Seprator />
+        <ThirdJumbo />
         <Faq />
-        <Footer/>
+        <Footer />
       </>
     );
   }
