@@ -75,17 +75,17 @@ class Row extends React.Component {
                   text={movie.name}
                   alt={movie.name}
                 />
-                <button
-                  type="button"
-                  className="heart"
-                  onClick={() => this.props.playList(movie)}
-                >
-                  {this.checkPlayList(movie) ? (
+                {this.checkPlayList(movie) ? (
+                  <button
+                    type="button"
+                    className="heart"
+                    onClick={() => this.props.playList(movie)}
+                  >
                     <i className="material-icons-round red-heart">favorite</i>
-                  ) : (
-                    <i className="material-icons-round gray-heart">favorite</i>
-                  )}
-                </button>
+                  </button>
+                ) : (
+                  <div />
+                )}
               </section>
             ))}
           </div>
