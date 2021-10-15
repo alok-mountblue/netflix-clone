@@ -15,7 +15,7 @@ export const ProfileScreen = () => {
         <h1>Edit Profile</h1>
         <div className='profileScreen_info'>
           <img
-            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtufkSKazWrTM9p5N2U8ns7q6QW6svCcGZig&usqp=CAU'
+            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5y-_SlNYalCNY-SKWNtKdfB0hb9wHcJJrNw&usqp=CAU'
             alt=''
           />
           <div className='profileScreen_details'>

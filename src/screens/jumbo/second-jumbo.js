@@ -10,10 +10,10 @@ class SecondJumbo extends React.Component{
                 </div>
                 <div className="section">
                  <div className="title">
-                    <h1>Download your programmes<br/> to watch on the go.</h1>
+                    <h1>Download your programmes <br/>to watch on the go.</h1>
                 </div>
                 <div className="subtitle">
-                    <h1>Save your data and watch all <br/>your favourites offline.</h1>
+                    <h1><br/>Save your data and watch all <br/>your favourites offline.</h1>
                 </div>
                 </div>
             </div>
