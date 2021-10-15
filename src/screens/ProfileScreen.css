@@ -52,6 +52,7 @@
 
 .profileScreen_info > img {
   height: 100px;
+  border-radius: 30px;
 }
 
 .profileScreen_body > h1 {

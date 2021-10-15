@@ -15,7 +15,7 @@ export const ProfileScreen = () => {
         <h1>Edit Profile</h1>
         <div className='profileScreen_info'>
           <img
-            src='https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png'
+            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtufkSKazWrTM9p5N2U8ns7q6QW6svCcGZig&usqp=CAU'
             alt=''
           />
           <div className='profileScreen_details'>
