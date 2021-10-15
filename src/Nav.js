@@ -3,8 +3,8 @@ import { withRouter } from 'react-router';
 import './Nav.css';
 
 class Nav extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state={
             show:false
         }
@@ -41,7 +41,7 @@ class Nav extends React.Component {
       <img 
         className="nav_avatar"
         onClick={this.moveToProfile}
-        src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQadx7_3qurjAk-NnLECtybSA2ZwmeUbZOQ5w&usqp=CAU"
         alt=""
       />
          
