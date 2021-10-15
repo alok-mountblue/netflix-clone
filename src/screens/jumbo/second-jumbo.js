@@ -6,7 +6,7 @@ class SecondJumbo extends React.Component{
         return(
             <div className="main-section">
                 <div className="section-image">
-                    <img className="image" src="https://images.indianexpress.com/2020/09/Netflix-free.jpg" alt=""/>
+                    <img className="image" src="https://i.pinimg.com/originals/49/0d/49/490d49ef5bf550c52d0b0326d45544d3.jpg" alt=""/>
                 </div>
                 <div className="section">
                  <div className="title">
