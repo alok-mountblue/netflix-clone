@@ -16,3 +16,19 @@
 
 :clapper: **Fron-end** React <br>
 :clapper: **Back-end** Firebase<br>
+
+## Installation
+
+- Clone the repo in your terminal writting:
+
+#### `$ git clone https://github.com/alok-mountblue/netflix-clone.git`
+
+- Install Node Module's
+
+#### `npm install`
+
+- start Server
+
+#### `npm start`
+
+- The application will open your default browser on <https://localhost:3000/>
