@@ -8,7 +8,6 @@ import Row from '../Row';
 
 
   class HomeScreen extends React.Component{
-
     render(){
      return (
   <div className="homeScreen">

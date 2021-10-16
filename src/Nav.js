@@ -43,7 +43,7 @@ class Nav extends React.Component {
         className="nav_avatar"
         onClick={this.moveToProfile}
         src="https://play-lh.googleusercontent.com/4e6wjPWV0QabU6n8yfQ48XuL1O3-k6lqurQNKEBNPrUMqABQvhqupOI5xzCEVOaegdw"
-        alt=""
+        alt="profile"
       />
          
        </div>   
